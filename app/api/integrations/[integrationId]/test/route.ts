@@ -35,7 +35,7 @@ export async function POST(
     }
 
     // Get the integration
-    const integration = await getIntegration(integrationId, session.user.id);
+    const integration = await getIntegration(integrationId, session.user.id) as any;
 
     if (!integration) {
       return NextResponse.json(
