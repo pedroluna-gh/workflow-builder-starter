@@ -4,7 +4,7 @@
  * Plugin Auto-Discovery Script
  *
  * Automatically discovers all plugins in the plugins/ directory and generates
- * the plugins/index.ts file with imports. Also updates the README.md with
+ * the plugins/index.ts file with imports. Also updates the README.mmd with
  * the current list of available actions.
  *
  * Additionally generates codegen templates from step files that have
